@@ -1,0 +1,45 @@
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+    animation: opacity 0.4s;
+
+    &show {
+        display: block;
+    }
+    li {
+        margin-bottom: .5rem;
+        a {
+            color: #9b9a97;
+            padding: 0.5rem;
+            display: block;
+            text-decoration: none;
+            border-right: 2px solid transparent;
+            font-size: 20px;
+            font-family: 'Bebas Neue', sans-serif;
+            padding-left: 80px;
+
+            &hover,
+            &active {
+                border-color: #c62e21;
+                background-color: #2a2a2a;
+            }
+        }
+    }
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #9b9a97;
+    font-size: 30px;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}

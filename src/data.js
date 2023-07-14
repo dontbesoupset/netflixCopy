@@ -7,7 +7,7 @@ export const DATA  = [
         limitAge: '18+',
         raiting: '9.12',
         duration: '2h 19min',
-        description: 'An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.',
+        description: 'A depressed man (Edward Norton) suffering from insomnia meets a strange soap salesman named Tyler Durden (Brad Pitt) and soon finds himself living in his squalid house after his perfect apartment is destroyed. The two bored men form an underground club with strict rules and fight other men who are fed up with their mundane lives. Their perfect partnership frays when Marla (Helena Bonham Carter), a fellow support group crasher, attracts Tyler`s attention.',
         photos: [
             'https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/1253489/pcTX3vTptQdbJSCJ0kCCA.jpg',
             'https://static.onecms.io/wp-content/uploads/sites/6/1999/10/fight-club-2000.jpg',
