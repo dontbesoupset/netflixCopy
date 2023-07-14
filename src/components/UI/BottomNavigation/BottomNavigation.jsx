@@ -4,19 +4,19 @@ const BottomNavigation = ({activeTab, setActiveTab}) => {
     return (
         <nav className={styles.nav}>
                 <button 
-                className={styles.active}
+                className={activeTab === 1 ? styles.acyive : ''}
                 onClick={() => setActiveTab(1)}>
                    Overview
                 </button>
 
                 <button 
-                className={styles.active}
+                className={activeTab === 2 ? styles.acyive : ''}
                 onClick={() => setActiveTab(2)}>
                    Episodes
                 </button>
 
                 <button 
-                className={styles.active}
+                className={activeTab === 3 ? styles.acyive : ''}
                 onClick={() => setActiveTab(3)}>
                    Details
                 </button>
