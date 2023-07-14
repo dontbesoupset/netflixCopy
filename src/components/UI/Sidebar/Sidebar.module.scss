@@ -1,3 +1,6 @@
+.show {
+    display: block;
+}
 
 ul {
     list-style-type: none;
@@ -5,9 +8,6 @@ ul {
     display: none;
     animation: opacity 0.4s;
 
-    &show {
-        display: block;
-    }
     li {
         margin-bottom: .5rem;
         a {
@@ -19,6 +19,7 @@ ul {
             font-size: 20px;
             font-family: 'Bebas Neue', sans-serif;
             padding-left: 80px;
+            text-align: right;
 
             &hover,
             &active {

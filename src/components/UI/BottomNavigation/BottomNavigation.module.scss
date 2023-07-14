@@ -7,7 +7,11 @@
     bottom: 0;
     left: 0;
 
-    
+}
+
+.active {
+    border-color: #c62e21;
+    opacity: 1;
 }
 
 button {
@@ -18,10 +22,6 @@ button {
     font-size: 20px;
     text-transform: uppercase;
     color: #fff;
-    .active {
-        border-color: #c62e21;
-        opacity: 1;
-    }
 
     &:hover {
         border-color: #b0291d;

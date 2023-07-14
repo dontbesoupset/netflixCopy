@@ -18,7 +18,7 @@ const Main = () => {
             <div 
             className={styles.main}
             style={{backgroundImage: `url(${DATA[0].mainImage})`,
-             width: isSideBarShowed ? '70%' : '85%'}}>
+             width: isSideBarShowed ? '85%' : '90%'}}>
                 <Information movie={DATA[0]}/>
                 <BottomNavigation />
             </div>
