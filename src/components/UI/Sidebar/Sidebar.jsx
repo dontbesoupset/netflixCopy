@@ -9,7 +9,8 @@ const Sidebar = ({isSideBarShowed, setIsSideBarShowed}) => {
         <div className={styles.sidebar}
             style={{width: isSideBarShowed ? '15%' : '10%'}}>
             <button onClick={() => setIsSideBarShowed(!isSideBarShowed)}>
-                <i className={`bx bx-${isSideBarShowed ? 'x' : 'align-left'}`}></i>
+                <i className={`bx bx-${isSideBarShowed ? 'x' : 'align-left'}`}
+                style={{marginLeft: '30px'}}></i>
             </button>
             <ul className={isSideBarShowed ? styles.show : ''}>
                 {menu.map(item => <li key={menu.indexOf(item)}><a href="/">{item}</a></li>)}

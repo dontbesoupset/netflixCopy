@@ -6,24 +6,31 @@
     position: absolute;
     bottom: 0;
     left: 0;
-}
+    margin: 0 1rem;
 
-.active {
-    border-color: #c62e21;
-    opacity: 1;
-}
+    button {
+        opacity: 0.8;
+        transition: border-color 0.4s ease, opacity 0.4s ease;
+        padding-bottom: .5rem;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #fff;
+        border: none;
+        background-color: transparent;
+        margin: 0 1rem;
+        cursor: pointer;
 
-button {
-    opacity: 0.8;
-    transition: border-color 0.4s ease, opacity 0.4s ease;
-    border-bottom: 2px solid transparent;
-    padding-bottom: .5rem;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #fff;
-
-    &:hover {
-        border-color: #b0291d;
+        &:hover {
+            border-bottom: 2px solid transparent;
+            border-color: #b0291d;
+            opacity: 1;
+        }
+    }
+    .active {
+        border-bottom: 2px solid transparent;
+        border-color: #c62e21;
         opacity: 1;
     }
 }
+
+

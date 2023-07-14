@@ -7,7 +7,7 @@
     width: 50%;
     position: relative;
     z-index: 1;
-    padding: 4rem 0rem 4rem 1rem;
+    padding: 5rem 0rem 5rem 1rem;
 }
 
 .additional {
@@ -17,13 +17,14 @@
     margin: 1rem 0 2rem;
 
     span {
-        margin-right: 0.5rem;
+        margin-right: 1rem;
         font-size: 18px;
     }
 }
 
 .description {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.65;
     color: #9b9a97;
     margin-bottom: 3rem;
     font-family: 'Arial', sans-serif;
