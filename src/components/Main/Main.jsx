@@ -22,7 +22,7 @@ const Main = () => {
             style={{backgroundImage: `url(${DATA[0].mainImage})`,
              width: isSideBarShowed ? '85%' : '90%'}}>
 
-            {activeTab === 1 ? <Information movie={DATA[0]}/> : activeTab === 2 && <Episodes/>}
+            {activeTab === 1 ? <Information movie={DATA[0]}/> : activeTab === 2 && <Episodes movie={DATA[0]}/>}
             </div>
             <BottomNavigation setActiveTab={setActiveTab} activeTab={activeTab} />
         </div>
