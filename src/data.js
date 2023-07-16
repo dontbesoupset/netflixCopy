@@ -16,6 +16,10 @@ export const DATA  = [
             'https://imgix.ranker.com/list_img_v2/15788/2735788/original/foreshadowing-and-clues-in-fight-club?fit=crop&fm=pjpg&q=60&dpr=2&w=1200&h=720',
             'https://images.bauerhosting.com/legacy/media/620a/7ef3/4a7c/a965/ef5d/7eca/fight-club-ending.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill'
         ],
-        episodes: 'This is a film, do it doesn`t have any episodes, but you can check out some decent screenshots! Swipe through! →'
+        episodes: 'This is a film, so it doesn`t have any episodes, but you can check out some decent screenshots! Swipe through! →',
+        trailer: 'https://www.youtube.com/embed/O1nDozs-LxI',
+        stars: ['Brad Pitt', 'Edward Norton', 'Meat Loaf'],
+        director: 'David Fincher',
+        writers: ['Chuck Palahniuk', 'Jim Uhls']
     },
 ]

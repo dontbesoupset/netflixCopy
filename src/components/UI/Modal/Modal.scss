@@ -1,0 +1,45 @@
+.modal {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+
+    &__content {
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #1c1d1e;
+        outline: 20px solid #1c1d1e;
+        border: 1px solid rgba(222, 221, 221, 0.738);
+    }
+
+    &__title {
+        font-family: 'Bebas Neue', sans-serif;
+        color: #b0291d;
+        font-size: 40px;
+    }
+
+    &__text-under {
+        font-family: 'Brush Script MT', sans-serif;
+        color: rgba(222, 221, 221, 0.738);
+        font-size: 20px;
+        margin-top: -1rem;
+        margin-bottom: 0.1rem;
+    }
+
+    &__text {
+        font-family: 'Arial', sans-serif;
+        color: rgba(222, 221, 221, 0.738);
+        font-size: 15px;
+        margin: 1rem 0;
+    }
+}
+
+.modal.active {
+    transform: scale(1);
+}

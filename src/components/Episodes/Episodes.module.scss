@@ -1,6 +1,6 @@
 .episodesPics {
-    height: 150px;
-    width: 250px;
+    height: 200px;
+    width: 300px;
     position: relative;
 }
 
@@ -9,6 +9,12 @@
     position: relative;
     z-index: 1;
     padding: 5rem 0rem 5rem 1rem;
+}
+
+.limitAge {
+    border: 1px solid #9b9a97;
+    border-radius: 5px;
+    padding: 1px;
 }
 
 .additional {
@@ -29,4 +35,9 @@
     color: #9b9a97;
     margin-bottom: 3rem;
     font-family: 'Arial', sans-serif;
+}
+
+.arrow {
+    margin-left: -1rem;
+    margin-bottom: -4rem;
 }

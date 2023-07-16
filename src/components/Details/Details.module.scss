@@ -1,0 +1,36 @@
+.details {
+    width: 60%;
+    position: relative;
+    z-index: 1;
+    padding: 5rem 0rem 5rem 1rem;
+}
+
+.details__list span{
+    color: #b0291d;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.details__list p{
+    color: #9b9a97;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+}
+
+.additional {
+    color: #9b9a97;
+    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 1rem 0 2rem;
+
+    span {
+        margin-right: 1rem;
+        font-size: 18px;
+    }
+}
+
+.limitAge {
+    border: 1px solid #9b9a97;
+    border-radius: 5px;
+    padding: 1px;
+}

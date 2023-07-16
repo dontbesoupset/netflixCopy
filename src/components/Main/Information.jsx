@@ -1,7 +1,11 @@
+import { useState } from 'react'
 import styles from './Main.module.scss'
 import Button from '../UI/Button/Button'
+import Modal from '../UI/Modal/Modal'
 
 const Information = ({movie}) => {
+
+    const [modalActive, setModalActive] = useState(false)
 
     // const addToFavorites = (movieName) => {
     //     let favorites = localStorage.getItem('favMovies')
@@ -17,7 +21,7 @@ const Information = ({movie}) => {
             <img src={movie.logo} alt={movie.name} width="200px" />
             <div className={styles.additional}>
                 <span>{movie.year}</span>
-                <span>{movie.limitAge}</span>
+                <span className={styles.limitAge}>{movie.limitAge}</span>
                 <span>{movie.raiting}</span>
                 <span>{movie.duration}</span>
             </div>
@@ -27,7 +31,7 @@ const Information = ({movie}) => {
             </div>
 
             <div className={styles.buttons}>
-                <Button cb={() => console.log('Video opening...')}>
+                <Button cb={() => setModalActive(true)}>
                     <i className="bx bx-play" style={{color: '#c62e21'}}></i>
                     <span>Play</span>
                 </Button>
@@ -37,6 +41,7 @@ const Information = ({movie}) => {
                     <span>My list</span>
                 </Button>
             </div>
+            <Modal active={modalActive} setActive={setModalActive} movie={movie}/>
         </div>
     )
 }
